@@ -88,7 +88,7 @@ export default async function ArticlePage({ params }: Props) {
       <Header />
 
       {/* Hero */}
-      <section className="relative pt-24">
+      <section className="relative">
         <div className="relative h-[50vh] min-h-[400px]">
           <Image src={article.image || "/placeholder.svg"} alt={article.title} fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/50 to-transparent" />

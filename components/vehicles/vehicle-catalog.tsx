@@ -56,9 +56,9 @@ export function VehicleCatalog() {
     searchQuery || selectedBrand !== "all" || sortBy !== "name" || priceRange[0] > 0 || priceRange[1] < 4000000
 
   return (
-    <div className="pt-24 pb-16">
+    <div className="pb-16">
       {/* Hero Section */}
-      <div className="relative bg-navy py-16 mb-12">
+      <div className="relative bg-navy pt-24 pb-16 mb-12">
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1920')] opacity-10 bg-cover bg-center" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <Badge variant="outline" className="mb-4 border-gold text-gold">

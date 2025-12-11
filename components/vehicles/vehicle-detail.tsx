@@ -52,9 +52,9 @@ export function VehicleDetail({ vehicle }: VehicleDetailProps) {
   ]
 
   return (
-    <div className="pt-20">
+    <div>
       {/* Hero Section */}
-      <section className="relative bg-navy">
+      <section className="relative bg-navy pt-24 pb-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-white/60 mb-8">
