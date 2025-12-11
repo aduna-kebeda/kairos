@@ -51,20 +51,6 @@ export function HeroSection() {
             <span className="text-sm text-gold font-medium">Ethiopia's Premier EV Destination</span>
           </div>
 
-          {/* Headline */}
-          <h1
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in-up"
-            style={{ animationDelay: "0.1s" }}
-          >
-            Drive the Future, <span className="text-gold">Today</span>
-          </h1>
-
-          {/* Subheadline */}
-          <p className="text-lg sm:text-xl text-white/70 mb-8 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            Experience premium electric vehicles from BYD, Geely, and Toyota. Exceptional quality, 5-year warranty, and
-            world-class service tailored for Ethiopian roads.
-          </p>
-
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <Link href="/vehicles">
